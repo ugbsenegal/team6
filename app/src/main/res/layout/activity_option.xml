@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".optionActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50pt"
+        android:layout_marginBottom="302dp"
+        android:background="@drawable/im"
+        android:text="LANGUAGE"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="62pt"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/im"
+        android:text="LEVEL"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="62pt"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/im"
+        android:text="HELPS"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+</RelativeLayout>

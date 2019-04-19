@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">RandomGame</string>
+    <string name="labelG1">Gamer One</string>
+    <string name="labelG2">Gamer Two</string>
+    <string name="labelValidate">VALIDATE</string>
+    <string name="score">score</string>
+    <string name="validate">VALIDATE</string>
+    <string name="share_score">SHARE SCORE</string>
+    <string name="atempts">Atempts :</string>
+    <string name="game_over">Game Over do you sorry!</string>
+    <string name="cogratulation">Congratulation you are winner whould you like to share your score</string>
+</resources>

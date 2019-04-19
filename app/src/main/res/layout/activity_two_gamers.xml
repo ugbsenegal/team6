@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".two_gamersActivity">
+
+    <Button
+        android:id="@+id/btnv2"
+        android:layout_width="196dp"
+        android:layout_height="58dp"
+        android:background="@drawable/im"
+        android:text="VALIDATE" />
+
+    <EditText
+        android:id="@+id/nb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelG1"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[18-30]"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelG2"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnv1"
+        android:layout_width="179dp"
+        android:layout_height="58dp"
+        android:background="@drawable/im"
+        android:text="@string/labelValidate" />
+
+
+</LinearLayout>
