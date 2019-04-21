@@ -6,14 +6,30 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@drawable/kest"
     tools:context=".two_gamersActivity">
+
+    <TextView
+        android:id="@+id/state2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="" />
+
 
     <Button
         android:id="@+id/btnv2"
         android:layout_width="196dp"
         android:layout_height="58dp"
-        android:background="@drawable/im"
+        android:enabled="false"
+        android:background="@drawable/bt12"
+        android:textColor="@color/colorPrimaryDark"
         android:text="VALIDATE" />
 
     <EditText
@@ -28,17 +44,22 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/labelG1"
+        android:text="@string/labelG2"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp" />
 
     <TextView
         android:id="@+id/inter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="@color/colorAccent"
         android:text="[18-30]"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_orange_light"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
         android:typeface="normal" />
 
@@ -46,8 +67,9 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/labelG2"
+        android:text="@string/labelG1"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp" />
 
     <EditText
@@ -63,8 +85,23 @@
         android:id="@+id/btnv1"
         android:layout_width="179dp"
         android:layout_height="58dp"
-        android:background="@drawable/im"
+        android:enabled="false"
+        android:background="@drawable/bt12"
+        android:textColor="@color/colorPrimaryDark"
         android:text="@string/labelValidate" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/state1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/im2"
     android:orientation="vertical"
     tools:context=".optionActivity">
 
@@ -15,8 +15,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="50pt"
-        android:layout_marginBottom="302dp"
-        android:background="@drawable/im"
+        android:layout_marginBottom="409dp"
+        android:background="@drawable/bt12"
         android:text="LANGUAGE"
         android:textSize="25sp"
         android:textStyle="italic" />
@@ -28,8 +28,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="62pt"
-        android:layout_marginBottom="193dp"
-        android:background="@drawable/im"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/bt12"
         android:text="LEVEL"
         android:textSize="25sp"
         android:textStyle="italic" />
@@ -41,8 +41,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="62pt"
-        android:layout_marginBottom="80dp"
-        android:background="@drawable/im"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/bt12"
         android:text="HELPS"
         android:textSize="25sp"
         android:textStyle="italic" />

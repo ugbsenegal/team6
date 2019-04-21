@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/kest"
     tools:context=".oneGamerActivity">
 
     <TextView
@@ -12,10 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:background="@android:drawable/editbox_background"
         android:layout_marginEnd="33dp"
+        android:background="@android:drawable/editbox_background"
         android:text="  level"
-        android:textSize="24sp" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:id="@+id/atempt"
@@ -25,12 +25,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="72dp"
-        android:background="@android:drawable/editbox_background"
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="410dp"
+        android:background="@android:drawable/editbox_background"
         android:text="@string/atempts"
-        android:textColor="@color/colorPrimary"
-        android:textSize="24sp" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/interval1"
@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="331dp"
         android:background="@android:drawable/editbox_background"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorAccent"
         android:text="[12-16]"
         android:textAlignment="center"
         android:textSize="30sp" />
@@ -63,7 +63,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
-        android:background="@drawable/im"
+        android:background="@drawable/bt12"
         android:enabled="false"
         android:text="@string/share_score"
         android:textSize="30sp"
@@ -77,7 +77,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="171dp"
-        android:background="@drawable/im"
+        android:background="@drawable/bt12"
         android:text="@string/validate"
         android:textSize="24sp"
         android:textStyle="italic" />
@@ -89,7 +89,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="4dp"
         android:background="@android:drawable/editbox_background_normal"
-        android:text="@string/score" />
+        android:text="@string/score"
+        android:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:id="@+id/state"

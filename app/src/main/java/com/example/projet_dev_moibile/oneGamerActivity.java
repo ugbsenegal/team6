@@ -38,7 +38,7 @@ public class oneGamerActivity extends AppCompatActivity {
             public void onClick(View v) {
                 EditText x=findViewById(R.id.x);
                 String value=x.getText().toString();
-                x.clearComposingText();
+                x.setText("");
                 if(value!=null) {
 
                     if (Integer.parseInt(value) == random) {
@@ -51,7 +51,7 @@ public class oneGamerActivity extends AppCompatActivity {
                         state.setText(congratulation);
                     }
 
-                    x.setText(String.valueOf(random));
+                    //x.setText(String.valueOf(random));
                     attempts++;
                     TextView att = findViewById(R.id.atempt);
                     att.setText("Atempts :" + String.valueOf(attempts));
@@ -70,8 +70,8 @@ public class oneGamerActivity extends AppCompatActivity {
                 Intent itsh=new Intent(Intent.ACTION_SEND);
                 itsh.setType("text/plain");
                 itsh.putExtra(Intent.EXTRA_SUBJECT,"score");
-                Intent intent = itsh.putExtra(Intent.EXTRA_TEXT, "I win in random game with score" + score + "Who anner defaite me");
-                startActivity(Intent.createChooser(itsh,"it your round to share"));
+                Intent intent = itsh.putExtra(Intent.EXTRA_TEXT, "I win in random game with score " + score + " Who wanner defaite me");
+                startActivity(Intent.createChooser(itsh,"it's your round to share"));
             }
         });
     }
