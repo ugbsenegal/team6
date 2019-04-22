@@ -39,7 +39,7 @@ public class oneGamerActivity extends AppCompatActivity {
                 EditText x=findViewById(R.id.x);
                 String value=x.getText().toString();
                 x.setText("");
-                if(value!=null) {
+                if(!value.equals("")) {
 
                     if (Integer.parseInt(value) == random) {
                         Button share = findViewById(R.id.share);

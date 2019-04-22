@@ -46,11 +46,11 @@ public class two_gamersActivity extends AppCompatActivity {
         int focus=(int)(Math.random()*100);
         if(focus>50){
             validate2.setEnabled(true);
-           // x2.setFocusedByDefault(true);
+            x2.requestFocus();
         }
         else{
             validate1.setEnabled(true);
-            //x2.setFocusedByDefault(true);
+            x1.requestFocus();
         }
 
         validate2.setOnClickListener(new View.OnClickListener() {
@@ -58,15 +58,22 @@ public class two_gamersActivity extends AppCompatActivity {
             public void onClick(View v) {
                 validate2.setEnabled(false);
                 String val=x2.getText().toString();
-                if (Integer.parseInt(val) == random) {
-                    x2.setEnabled(false);
-                    validate2.setEnabled(false);
-                    TextView state = findViewById(R.id.state2);
-                    String congratulation = new String("Gamer Two you are the winner ");
-                    state.setText(congratulation);
+                if(!val.equals("")){
+                    if (Integer.parseInt(val) == random) {
+                        x2.setEnabled(false);
+                        validate2.setEnabled(false);
+                        TextView state = findViewById(R.id.state2);
+                        String congratulation = new String("Gamer Two you are the winner ");
+                        state.setText(congratulation);
+                    }
+                    else{
+                        validate1.setEnabled(true);
+                    }
+                    x2.setText("");
+                    x1.requestFocus();
                 }
                 else{
-                    validate1.setEnabled(true);
+                    x2.setError("give your number");
                 }
             }
         });
@@ -74,17 +81,23 @@ public class two_gamersActivity extends AppCompatActivity {
         validate1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validate1.setEnabled(false);
                 String val=x1.getText().toString();
-                if (Integer.parseInt(val) == random) {
-                    x1.setEnabled(false);
-                    validate1.setEnabled(false);
-                    TextView state = findViewById(R.id.state1);
-                    String congratulation = new String("Gamer One you are the winner ");
-                    state.setText(congratulation);
+                if(!val.equals("")){
+                    if (Integer.parseInt(val) == random) {
+                        x1.setEnabled(false);
+                        validate1.setEnabled(false);
+                        TextView state = findViewById(R.id.state1);
+                        String congratulation = new String("Gamer One you are the winner ");
+                        state.setText(congratulation);
+                    }
+                    else{
+                        validate2.setEnabled(true);
+                    }
+                    x1.setText("");
+                    x2.requestFocus();
                 }
                 else{
-                    validate2.setEnabled(true);
+                    x1.setError("you don't give a number");
                 }
             }
         });
