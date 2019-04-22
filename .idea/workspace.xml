@@ -63,7 +63,7 @@
     <session id="-1125028209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -76,10 +76,10 @@
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.57" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.61" value="2" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,7 +109,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="2686" />
+          <entry key="java" value="2702" />
           <entry key="txt" value="380" />
           <entry key="xml" value="1133" />
         </counts>
@@ -117,7 +117,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="2686" />
+          <entry key="JAVA" value="2702" />
           <entry key="PLAIN_TEXT" value="380" />
           <entry key="XML" value="1133" />
         </counts>
@@ -130,23 +130,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_choice.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -161,14 +151,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/oneGamerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="495">
               <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1073#2214#0" expanded="true" />
-                <element signature="e#2213#2214#0" expanded="true" />
-                <element signature="e#2294#2798#0" expanded="true" />
-                <element signature="e#2797#2798#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,44 +172,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/two_gamersActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-              <folding>
-                <element signature="e#2491#3395#0" expanded="true" />
-                <element signature="e#3394#3395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="331">
+              <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_option.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_two_gamers.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_one_gamer.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="51" selection-start-line="41" selection-start-column="7" selection-end-line="42" selection-end-column="51" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -287,18 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AndroidStudioProjects" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -429,13 +389,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidStudioProjects" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="device.picker.selection" value="WGEYGUQGIFTSVCH6" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Application0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/team6-master" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -555,8 +527,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.23383878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.23383878" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.32960895" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32960895" />
       <window_info id="Image Layers" order="3" />
@@ -571,9 +544,9 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5011971" side_tool="true" weight="0.32626426" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49960095" visible="true" weight="0.32626426" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.0" />
-      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49960095" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32952693" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5008157" side_tool="true" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" sideWeight="0.49918434" weight="0.32960895" />
@@ -620,14 +593,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="random" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
     <entry file="android-dummy:///home/khoutbou/AndroidStudioProjects/app/Translations Editor">
       <provider selected="true" editor-type-id="string-resource-editor" />
     </entry>
@@ -665,17 +631,10 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/android/lib/layoutlib/data/res/drawable-ldpi/editbox_background_normal.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor" />
       <provider editor-type-id="images" />
+      <provider selected="true" editor-type-id="ninepatcheditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_one_gamer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_one_gamer.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/choiceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -717,26 +676,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_one_gamer.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_choice.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/oneGamerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,51 +711,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_option.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_two_gamers.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_one_gamer.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="51" selection-start-line="41" selection-start-column="7" selection-end-line="42" selection-end-column="51" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/oneGamerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1073#2214#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2294#2798#0" expanded="true" />
-            <element signature="e#2797#2798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projet_dev_moibile/two_gamersActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-          <folding>
-            <element signature="e#2491#3395#0" expanded="true" />
-            <element signature="e#3394#3395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="331">
+          <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="48" />
         </state>
       </provider>
     </entry>

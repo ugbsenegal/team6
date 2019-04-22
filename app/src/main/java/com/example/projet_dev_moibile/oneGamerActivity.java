@@ -50,15 +50,24 @@ public class oneGamerActivity extends AppCompatActivity {
                         String congratulation = new String("Congratulation you'are winner.whould you like to share your score");
                         state.setText(congratulation);
                     }
-
-                    //x.setText(String.valueOf(random));
                     attempts++;
+                    if(attempts==2){
+                        x.setEnabled(false);
+                        validate.setEnabled(false);
+                        TextView state = findViewById(R.id.state);
+                        String gameOver = new String("Game Over!!But keep trying");
+                        state.setText(gameOver);
+                    }
+                    //x.setText(String.valueOf(random));
                     TextView att = findViewById(R.id.atempt);
                     att.setText("Atempts :" + String.valueOf(attempts));
 
                     modul--;
 
                     fixInterval();
+                }
+                else{
+                    x.setError("give your number");
                 }
             }
         });

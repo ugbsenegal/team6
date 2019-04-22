@@ -56,7 +56,6 @@ public class two_gamersActivity extends AppCompatActivity {
         validate2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validate2.setEnabled(false);
                 String val=x2.getText().toString();
                 if(!val.equals("")){
                     if (Integer.parseInt(val) == random) {
@@ -71,6 +70,7 @@ public class two_gamersActivity extends AppCompatActivity {
                     }
                     x2.setText("");
                     x1.requestFocus();
+                    validate2.setEnabled(false);
                 }
                 else{
                     x2.setError("give your number");
@@ -95,6 +95,7 @@ public class two_gamersActivity extends AppCompatActivity {
                     }
                     x1.setText("");
                     x2.requestFocus();
+                    validate1.setEnabled(false);
                 }
                 else{
                     x1.setError("you don't give a number");
