@@ -51,7 +51,7 @@ public class oneGamerActivity extends AppCompatActivity {
                         state.setText(congratulation);
                     }
                     attempts++;
-                    if(attempts==2){
+                    if(attempts==5){
                         x.setEnabled(false);
                         validate.setEnabled(false);
                         TextView state = findViewById(R.id.state);
